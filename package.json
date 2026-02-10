@@ -1,0 +1,27 @@
+{
+  "name": "my-music-app",
+  "author": {
+    "name": "Agesse",
+    "email": "ban@agesse.moe"
+  },
+  "version": "1.0.0",
+  "description": "Application web installable permettant de se tester au piano sur les accords de septième de jazz",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "solid-devtools": "^0.34.3",
+    "typescript": "^5.7.2",
+    "vite": "^7.1.4",
+    "vite-plugin-pwa": "^1.2.0",
+    "vite-plugin-solid": "^2.11.8"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5"
+  }
+}

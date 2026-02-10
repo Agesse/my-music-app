@@ -1,0 +1,189 @@
+:root {
+  --text-color: #f5ebd0;
+  --subtitle-color: #bfabb6;
+  --background-color: #39121a;
+  --accent-color: #d07189;
+  --secondary-color: #f2a238;
+}
+
+/***** CONTENEURS *****/
+html {
+  background-color: var(--background-color);
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-seri;
+  line-height: 1.5;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*** CONTAINER ***/
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1215px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1216px) and (max-width:1407px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .container {
+    max-width: 1344px;
+  }
+}
+
+/*** HEADER ***/
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 2rem 1.5rem;
+    background: rgba(0, 0, 0, .3);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 3rem 3rem;
+  }
+}
+
+/*** MAIN ***/
+.main {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/*** CONTENU ***/
+.content {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    min-height: 70vh;
+  }
+}
+
+/***** CONTENU *****/
+/*** TITRES ***/
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.125;
+  color: var(--accent-color);
+}
+
+.subtitle {
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.title,
+.subtitle {
+  word-break: break-word;
+}
+
+/*** ACCORDS ***/
+.chord-name {
+  color: var(--secondary-color);
+  margin: 4rem 0 1.5rem 0;
+  text-align: center;
+  font-size: 4.375rem;
+}
+
+.question-img {
+  width: 9em;
+  margin: 2rem auto;
+}
+
+.chord-name-soluce {
+  color: var(--secondary-color);
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.chord-notes-soluce {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.keyboard-soluce {
+  background: var(--accent-color);
+  padding: .5rem .5rem .2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .chord-name {
+    font-size: 6rem;
+  }
+
+  .chord-name-soluce {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  .chord-notes-soluce {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .keyboard-soluce {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/*** BOUTONS ***/
+.button-fullwidth {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .button-fullwidth {
+    line-height: 2;
+  }
+}
