@@ -40,7 +40,7 @@ const App: Component = () => {
         <Show when={!showSoluce()}>
           <div class="content">
             <h2 id="chord-name" class="chord-name" tabindex="-1">{chord().name}</h2>
-            <img width="144" height="185" alt="" class="question-img" src="/img/question.svg" />
+            <img width="144" height="185" alt="" class="question-img" src="./img/question.svg" />
           </div>
 
           <button type="button"
