@@ -23,7 +23,7 @@ export default defineConfig({
         "start_url": "https://agesse.github.io/my-music-app/",
         "theme_color": "#d68f84",
         "background_color": "#242220",
-        "orientation": "landscape",
+        "orientation": "portrait",
         "display": "fullscreen",
         "display_override": ["fullscreen", "standalone"],
         "screenshots": [
