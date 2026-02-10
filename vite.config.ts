@@ -27,55 +27,55 @@ export default defineConfig({
         "display_override": ["fullscreen", "standalone"],
         "screenshots": [
           {
-            "src": "/img/screenshot.png",
+            "src": "./img/screenshot.png",
             "type": "image/png",
             "sizes": "3199x2134",
             "form_factor": "wide"
           },
           {
-            "src": "/img/screenshot.png",
+            "src": "./img/screenshot.png",
             "type": "image/png",
             "sizes": "3199x2134"
           }
         ],
         "icons": [
           {
-            "src": "/img/icon-192.png",
+            "src": "./img/icon-192.png",
             "type": "image/png",
             "sizes": "192x192"
           },
           {
-            "src": "/img/icon-384.png",
+            "src": "./img/icon-384.png",
             "type": "image/png",
             "sizes": "384x384",
             "purpose": "any"
           },
           {
-            "src": "/img/icon-384-mask.png",
+            "src": "./img/icon-384-mask.png",
             "type": "image/png",
             "sizes": "384x384",
             "purpose": "maskable"
           },
           {
-            "src": "/img/icon-512.png",
+            "src": "./img/icon-512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any"
           },
           {
-            "src": "/img/icon-512-mask.png",
+            "src": "./img/icon-512-mask.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "maskable"
           },
           {
-            "src": "/img/icon-1024.png",
+            "src": "./img/icon-1024.png",
             "type": "image/png",
             "sizes": "1024x1024",
             "purpose": "any"
           },
           {
-            "src": "/img/icon-1024-mask.png",
+            "src": "./img/icon-1024-mask.png",
             "type": "image/png",
             "sizes": "1024x1024",
             "purpose": "maskable"
