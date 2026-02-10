@@ -90,4 +90,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  base: "/my-music-app/"
 });
