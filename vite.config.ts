@@ -58,6 +58,12 @@ export default defineConfig({
             "purpose": "maskable"
           },
           {
+            "src": "./img/icon-384-mask-mono.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "maskable monochrome"
+          },
+          {
             "src": "./img/icon-512.png",
             "type": "image/png",
             "sizes": "512x512",
@@ -70,6 +76,12 @@ export default defineConfig({
             "purpose": "maskable"
           },
           {
+            "src": "./img/icon-512-mask-mono.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable monochrome"
+          },
+          {
             "src": "./img/icon-1024.png",
             "type": "image/png",
             "sizes": "1024x1024",
@@ -80,6 +92,12 @@ export default defineConfig({
             "type": "image/png",
             "sizes": "1024x1024",
             "purpose": "maskable"
+          },
+          {
+            "src": "./img/icon-1024-mask-mono.png",
+            "type": "image/png",
+            "sizes": "1024x1024",
+            "purpose": "maskable monochrome"
           }
         ]
       }
